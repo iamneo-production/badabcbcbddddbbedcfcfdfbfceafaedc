@@ -1,9 +1,9 @@
-import java.persistence.Entity;
-import java.persistence.Id;
-import java.persistence.Table;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
-@Table
+@Table(name="Task")
 public class Taskentity {
 
     @Id
