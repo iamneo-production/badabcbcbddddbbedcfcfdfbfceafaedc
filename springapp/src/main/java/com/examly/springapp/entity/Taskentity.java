@@ -1,6 +1,6 @@
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import java.persistence.Entity;
+import java.persistence.Id;
+import java.persistence.Table;
 
 @Entity
 @Table(name="Task")
