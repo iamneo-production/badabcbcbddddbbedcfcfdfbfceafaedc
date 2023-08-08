@@ -3,7 +3,7 @@ import java.persistence.Id;
 import java.persistence.Table;
 
 @Entity
-@Table(name="Task")
+@Table
 public class Taskentity {
 
     @Id
